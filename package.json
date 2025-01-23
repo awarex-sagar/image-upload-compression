@@ -1,5 +1,6 @@
 {
   "name": "image-upload-compression",
+  "homepage": "https://awarex-sagar.github.io/image-upload-compression/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -68,7 +68,6 @@ const UploadWithCompression: React.FC = () => {
             style={{ maxWidth: "100vw" }}
             src={originalFile}
             alt="UnCompressed Upload"
-            // style={{ width: "300px" }}
           />
         </div>
       ) : (
@@ -78,11 +77,7 @@ const UploadWithCompression: React.FC = () => {
       {compressedFile ? (
         <>
           <p>Compressed File</p>
-          <img
-            src={compressedFile}
-            alt="Compressed Upload"
-            // style={{ width: "300px" }}
-          />
+          <img src={compressedFile} alt="Compressed Upload" />
         </>
       ) : (
         <p>No image uploaded.</p>
